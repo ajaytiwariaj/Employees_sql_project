@@ -17,7 +17,7 @@ Retrieve employees working in the "Sales" department.
 
 Find the current salary of a specific employee by their ID(10009).
 
-Find the highest salary of a specific employee by their ID(10009).
+Find the highest salary of a specific employee by their ID(10005).
 
 List employees who have been managers at some point.
 
@@ -28,4 +28,5 @@ Find the average salary of employees per department.
 Identify employees who have been in the company for more than 35 years.
 
 Get the number of employees hired per year.
+
 
