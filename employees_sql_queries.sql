@@ -74,6 +74,12 @@ WHERE
     emp_no = '10005';
 
 
+-- Find the second highest salary
+SELECT MAX(SALARY)
+   FROM SALARIES
+   WHERE SALARY < (SELECT MAX(SALARY) FROM SALARIES)
+
+
 -- List employees who have been managers at some point.
 SELECT 
     e.emp_no,
