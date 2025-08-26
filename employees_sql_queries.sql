@@ -83,9 +83,9 @@ SELECT MAX(SALARY)
 -- Find the 10th highest salary
    SELECT SALARY 
    FROM (SELECT SALARY,
-   DENSE_RANK () OVER (ORDER BY SALARY DESC) AS RANK
+   DENSE_RANK () OVER (ORDER BY SALARY DESC) AS RANK_NO
    FROM SALARIES) AS SALARY
-   WHERE RANK = 10
+   WHERE RANK_NO = 10
 
 
 -- List employees who have been managers at some point.
