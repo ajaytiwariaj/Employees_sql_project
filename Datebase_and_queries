@@ -21,6 +21,8 @@ Find the highest salary of a specific employee by their ID(10005).
 
 Find the second highest salary.
 
+Find the 10th highest salary.
+
 List employees who have been managers at some point.
 
 Retrieve the highest-paid employee with first and last name.
@@ -30,6 +32,7 @@ Find the average salary of employees per department.
 Identify employees who have been in the company for more than 35 years.
 
 Get the number of employees hired per year.
+
 
 
 
